@@ -47,4 +47,19 @@ class EmailRequest extends BaseRequest implements RequestInterface
 
         return true;
     }
+
+    public function getRecipientEmail()
+    {
+        return 'r.dokollari@gmail.com';
+    }
+
+    public function getSenderEmail()
+    {
+        return 'r.dokollari@gmail.com';
+    }
+
+    public function getSubjectEmail()
+    {
+        return 'Elastic Email Subject';
+    }
 }
