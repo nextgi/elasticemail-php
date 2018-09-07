@@ -1,24 +1,27 @@
 {
   "name": "rdok/elasticemail-php",
-  "description": "Integration to the Elastic Email API http://api.elasticemail.com/public/help",
+  "description": "Integration to the Elastic Email API http://api.elasticemail.com/public/help - \"phpunit/phpunit\": \"^6.5\"",
   "license": "MIT",
   "authors": [
     {
       "name": "Rizart Dokollari",
       "email": "r.dokollari@gmail.com"
+    },
+    {
+      "name": "Zak H. - NextGi",
+      "email": "zharding@nextgi.com"
     }
   ],
   "require": {
     "php": ">=7.0.0",
-    "guzzlehttp/guzzle": "^6.3",
-    "phpunit/phpunit": "^6.5"
+    "guzzlehttp/guzzle": "^6.3"    
   },
   "require-dev": {
     "vlucas/phpdotenv": "^2.2"
   },
   "autoload": {
     "psr-4": {
-      "ElasticEmail\\": "src/ElasticEmail/"
+      "ElasticEmail\\": "src/"
     }
   },
   "autoload-dev": {
